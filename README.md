@@ -54,7 +54,7 @@ zip -r ../tweepy_layer.zip .
 
 Now if you go to Lambda -> Layers and click on `Create layer` you can upload your zip file and create your new costume layer. After creating your layer go to your function again (Lambda -> Functions -> Your_Func_Name) and at the very bottom of the page try to click on `Add a layer` and then choose your layer under `Custom layers`. Now your Lambda function can use the costume environment and the packages.
 
-3. They keep sensitive information, like your Twitter API keys and tokens, secure we use environment variables instead of hard-coding the keys inside lambda function. Go to Lambda -> Functions -> Your_Func_Name and just above your `Code source` panel choose `Configuration` tab you can see `Environment variables` subsection and you have to add all of the twitter API credentials:
+3. **Environment variables**: To keep sensitive information, like your Twitter API keys and tokens, secure we use environment variables instead of hard-coding the keys inside lambda function. Go to Lambda -> Functions -> Your_Func_Name and just above your `Code source` panel choose `Configuration` tab you can see `Environment variables` subsection and you have to add all of the twitter API credentials:
     - `CONSUMER_KEY` = your api key
     - `CONSUMER_SECRET` = your api key secret
     - `ACCESS_TOKEN` = your access token
