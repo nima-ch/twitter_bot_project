@@ -149,7 +149,7 @@ def lambda_handler(event, context):
     s3_client.put_object(Bucket=bucket_name, Key=index_file_key, Body=json.dumps(current_index))
 ```
 
-## Deployment ant Test
+## Deployment and Test
 
 Deploy your Lambda function and Test it in your main function page by clicking Deploy and Test under `Code source`.
 
