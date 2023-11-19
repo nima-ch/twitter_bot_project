@@ -24,7 +24,7 @@ I scraped fun facts from the internet using Python scripts. Here's a brief overv
 - Extract and clean the data to fit Twitter's character limit.
 - Save the cleaned facts in a text file for the bot to tweet.
 
-Refer to the provided jupyter nb provided in repo (data_scraping.py) for detailed implementation.
+Refer to the provided python script in repo (data_scraping.py) for detailed implementation.
 
 ### Step 3: Setting up AWS Services
 
