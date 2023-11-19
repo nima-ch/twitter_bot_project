@@ -28,7 +28,7 @@ Refer to the provided jupyter nb provided in repo (data_scraping.ipynb) for deta
 
 ### Step 3: Setting up AWS Services
 
-[Bamshi](https://twitter.com/Bamshi_The_Cat) uses AWS services including Lambda, S3, and EventBridge. Make (AWS Free Tier account)[https://aws.amazon.com/free] and then follow these steps:
+[Bamshi](https://twitter.com/Bamshi_The_Cat) uses AWS services including Lambda, S3, and EventBridge. Make [AWS Free Tier account](https://aws.amazon.com/free) and then follow these steps:
 
 1. **AWS Lambda**: On top left click on Services and in the search bar type `Lambda`. Click on Lambda (Run code without thinking about servers) and in the Lamvda page click on `Create function`. Choose `Author from scratch`, a proper `Function name` and select Python 3.9 as `Runtime`. Leave all the other option as default. Now you have a Lambda function that you can add layer (costume python environments and packages) or attach data bases and S3 buckets or new trigger to schedule the function.
 
